@@ -2,7 +2,7 @@
 
 ## CRIAR SUBDOMINIO E APONTAR PARA O IP DA SUA VPS
 
-Testado ubuntu 20 e 22
+Testado ubuntu 22
 
 
 Editar arquivo config e colocar senhas de sua preferencia e seu email, dominios.
@@ -38,13 +38,13 @@ Depois reniciar seguir com a instalacao
 cd /root
 ```
 ```bash
-git clone https://github.com/cleitonme/izing.instalador.git izinginstalador
+git clone https://github.com/wnjinfo/izing.instalador.tvf.git izinginstalador
 ```
 Editar dados com seus dados, com nano para salvar aperta Ctrl + x
 
 Você pode definir o timezone desejado usando a variável de ambiente TIMEZONE. Caso não seja informado, o sistema usará o timezone padrão: America/Sao_Paulo.
 ```bash
-nano ./izinginstalador/config
+vim ./izinginstalador/config
 ```
 
 ```bash
